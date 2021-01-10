@@ -1,0 +1,90 @@
+body, html  {
+  font-family: 'Special Elite', cursive;
+  font-size: 1rem;
+  background: #09093B;
+  color:white;
+ }
+
+img  {
+  position: relative;
+  top:0;
+  z-index:0;
+  border-radius: 50%;
+  width: 30%;
+  border: 3px solid #5494E1;
+  padding: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 10px;
+  background-color: #343477;
+  padding: 10px;
+  border-radius: 10px 10px 10px 10px;
+}
+  
+.grid-container > div {
+  background-color: rgba(128, 128, 179);
+  border: 3px solid black;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 10px;
+  padding: 1px;
+  
+}
+ 
+
+
+a{
+  color: #5867b9;
+
+}
+span {
+  text-align: left;
+}
+.topnav {
+  background-color: #5494E1;
+  border:1px solid white;
+  overflow: hidden;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.button {
+  font-family: 'Special Elite', cursive;
+  font-size: 1.4rem;
+  background-color: #343477;
+  border-radius: 10px;
+  border: 3px solid white;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+  
+  
+}
+
+.button:hover{
+  
+  background-color: #E26D3E;
+  
+}
+
+.clock {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #17D4FE;
+  font-size: 60px;
+  font-family: Orbitron;
+  letter-spacing: 7px;
+ 
+
+
+}
