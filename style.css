@@ -1,3 +1,5 @@
+
+
 body, html  {
   font-family: 'Special Elite', cursive;
   font-size: 1rem;
@@ -5,12 +7,13 @@ body, html  {
   color:white;
  }
 
-img  {
+ img  {
   position: relative;
   top:0;
   z-index:0;
   border-radius: 50%;
   width: 30%;
+  height: auto;
   border: 3px solid #5494E1;
   padding: 10px;
 }
@@ -34,26 +37,28 @@ img  {
   
 }
  
-
-
 a{
-  color: #5867b9;
+  color: #b95858;
 
 }
 span {
   text-align: left;
 }
 .topnav {
+  
   background-color: #5494E1;
   border:1px solid white;
   overflow: hidden;
   padding: 10px;
   border-radius: 10px;
+  
 }
 
 .button {
   font-family: 'Special Elite', cursive;
   font-size: 1.4rem;
+  width:auto;
+  overflow: auto;
   background-color: #343477;
   border-radius: 10px;
   border: 3px solid white;
@@ -87,4 +92,37 @@ span {
  
 
 
+}
+
+/* For Smaller Screens */
+@media only screen and (max-width: 600px) and (min-width: 200px) {
+  body {
+    background-color: #09093B;
+    font-size: .9rem;
+  }
+  .content {
+    text-align: center;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .grid-container {
+    display: grid;
+    background-color: #343477;
+    border-radius: 10px;
+    text-align: center;   
+    margin: 0;
+    width: 96%;
+  }
+  .grid-container div {
+    background-color: rgba(128, 128, 179);
+    border: 3px solid black;
+    text-align: center;
+    border-radius: 10px;
+    font-size: .9rem;
+    margin: auto;
+  }
 }
